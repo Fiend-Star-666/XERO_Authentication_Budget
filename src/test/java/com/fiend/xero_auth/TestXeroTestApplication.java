@@ -1,4 +1,4 @@
-package com.fiend.xero_test;
+package com.fiend.xero_auth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.test.context.TestConfiguration;
@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.TestConfiguration;
 public class TestXeroTestApplication {
 
     public static void main(String[] args) {
-        SpringApplication.from(XeroTestApplication::main).with(TestXeroTestApplication.class).run(args);
+        SpringApplication.from(XeroAuthApplication::main).with(TestXeroTestApplication.class).run(args);
     }
 
 }

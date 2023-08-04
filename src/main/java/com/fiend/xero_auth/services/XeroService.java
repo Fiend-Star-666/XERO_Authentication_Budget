@@ -1,4 +1,4 @@
-package com.fiend.xero_test.services;
+package com.fiend.xero_auth.services;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

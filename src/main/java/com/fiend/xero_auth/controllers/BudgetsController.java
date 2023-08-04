@@ -1,6 +1,6 @@
-package com.fiend.xero_test.controllers;
+package com.fiend.xero_auth.controllers;
 
-import com.fiend.xero_test.services.XeroService;
+import com.fiend.xero_auth.services.XeroService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
 import org.slf4j.Logger;

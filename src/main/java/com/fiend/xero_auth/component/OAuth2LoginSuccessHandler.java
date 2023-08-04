@@ -1,7 +1,6 @@
-package com.fiend.xero_test.component;
+package com.fiend.xero_auth.component;
 
-import com.fiend.xero_test.services.XeroService;
-import jakarta.servlet.ServletException;
+import com.fiend.xero_auth.services.XeroService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
@@ -12,7 +11,6 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.oauth2.client.authentication.OAuth2AuthenticationToken;
 import org.springframework.security.web.authentication.SimpleUrlAuthenticationSuccessHandler;
 import org.springframework.stereotype.Component;
-import org.springframework.web.util.UriComponentsBuilder;
 
 import java.io.IOException;
 

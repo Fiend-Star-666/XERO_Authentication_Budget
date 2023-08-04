@@ -1,6 +1,6 @@
-package com.fiend.xero_test.controllers;
+package com.fiend.xero_auth.controllers;
 
-import com.fiend.xero_test.services.XeroService;
+import com.fiend.xero_auth.services.XeroService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

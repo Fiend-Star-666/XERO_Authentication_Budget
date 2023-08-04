@@ -1,13 +1,13 @@
-package com.fiend.xero_test;
+package com.fiend.xero_auth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class XeroTestApplication {
+public class XeroAuthApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(XeroTestApplication.class, args);
+        SpringApplication.run(XeroAuthApplication.class, args);
     }
 
 }
