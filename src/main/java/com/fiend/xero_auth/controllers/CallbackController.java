@@ -96,7 +96,7 @@ public class CallbackController {
             TokenStorageService.saveItem(response, "xero_tenant_id", connection.get(0).getTenantId().toString());
 
             return ResponseEntity.status(HttpServletResponse.SC_MOVED_TEMPORARILY)
-                    .location(URI.create("./AuthenticatedResource")).build();
+                    .location(URI.create("./getBudgets")).build();
         } else {
             return ResponseEntity.status(HttpServletResponse.SC_UNAUTHORIZED).build();
         }
