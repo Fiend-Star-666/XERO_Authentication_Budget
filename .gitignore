@@ -59,3 +59,4 @@ build/
 /.idea/codeStyles/codeStyleConfig.xml
 /.idea/.gitignore
 /.idea/uiDesigner.xml
+!/.idea/aws.xml
