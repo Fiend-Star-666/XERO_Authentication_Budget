@@ -50,6 +50,7 @@ public class AuthorizationController {
 
     @GetMapping("/")
     public ResponseEntity<Void> doGet(HttpServletResponse response) throws IOException {
+
         List<String> scopeList = Arrays.asList(
                 "openid",
                 "email",
